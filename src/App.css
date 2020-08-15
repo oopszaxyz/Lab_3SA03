@@ -4,12 +4,30 @@
     width: 3em;
     font-size: 2em;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    margin: 1em;
+    margin: 1.5em;
     user-select: none;
+    background: rgba(0, 0, 0, 0.445);
    }
 
-.activeCard {
-    color: red;
-    background: pink;
+.body{
+    background-color: rgb(107, 255, 139);
 }
-   
+
+.h1{
+    background-color: rgb(255, 159, 14);
+    text-align: center;
+    margin: 0;
+    font-family: 'Lucida Grande';
+}
+
+.Text{
+    background-color: rgb(253, 156, 156);
+    text-align: center;
+    font-family: 'Lucida Grande';
+    padding: 1em;
+}
+
+.activeCard {
+    color: rgb(0, 0, 0)(0, 0, 0);
+    background: rgb(218, 255, 7);
+}

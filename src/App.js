@@ -8,6 +8,9 @@ const word = "Hello";
 function App() {
   return (
     <div>
+      <h1 className = 'h1'>
+        Welcome to Word Spelling Game
+      </h1>
       <WordCard value={word}/>
     </div>
   );
