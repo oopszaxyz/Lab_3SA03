@@ -36,6 +36,11 @@ function App() {
 
       <WordCard value={word}/>
 
+        <center>
+           <button class="button" onClick={() => window.location.reload(false)}>RANDOM WORD</button>
+        </center>
+
+
     </div>
   );
  }
