@@ -40,6 +40,13 @@
     padding: 1em;
 }
 
+.gameHint{
+    background-color: rgb(115, 253, 138);
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    padding: 0.5em;
+}
+
 .activeCard {
     color: rgb(0, 0, 0)(0, 0, 0);
     background: rgb(218, 255, 7);
