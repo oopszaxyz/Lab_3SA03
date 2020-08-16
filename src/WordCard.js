@@ -31,7 +31,7 @@ export default function WordCard(props){
                 console.log('Yeah!')
                 setState({...state, guess: '' ,completed: true})
                 ShowAnswer = 'Correct !!'
-                window.location.reload(false)
+                setTimeout(() => {  window.location.reload(false) }, 1000);
             }else{
                 console.log('reset, next attempt')
                 setState({...state, guess: '',attempt: state.attempt+1, completed: false})
