@@ -8,7 +8,7 @@ const word = "Hello";
 function App() {
   return (
     <div>
-      <h1 className = 'h1'>
+      <h1 className = 'gameName'>
         Welcome to Word Spelling Game
       </h1>
       <WordCard value={word}/>

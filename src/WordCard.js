@@ -48,7 +48,7 @@ export default function WordCard(props){
                 ) 
             }
             <h1 className = 'Text'> Your Answer is : {ShowYourGuess} </h1>
-            <h1 className = 'Text'> {ShowAnswer} </h1>
+            <h1 className = 'gameResult'> {ShowAnswer} </h1>
         </div>
     );
 }
